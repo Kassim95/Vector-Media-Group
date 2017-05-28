@@ -1,0 +1,44 @@
+body{
+	margin-top: 20px;
+}
+body, .panel{
+	background-color: #F5F5F5;
+}
+.thank-you{
+	text-align: center;
+	display: none;
+}
+form{
+	padding: 10px;
+}
+textarea {
+    resize: none;
+}
+.glyphicon-thumbs-up, .glyphicon-thumbs-down, .rate{
+	color: grey;
+	font-size: 17px;
+
+}
+.privacy{
+	color: grey;
+}
+.submit{
+	color: white;
+}
+.collapsed{
+	background-color: #4682B4;
+	top: 0;
+	color: white;
+	height: 100%;
+	border-radius: 0px;
+}
+.panel-heading, .thumbs{
+	cursor: pointer;
+}
+.panel{
+	border: solid #4682B4 4px;
+	color: #4682B4;
+}
+.thumb-active, .rate, .glyphicon-remove, .reload{
+	color: #4682B4;
+}
